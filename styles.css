@@ -1,0 +1,70 @@
+.bodyBG{
+    background-image: url(/images/sewing_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.h5ader{
+    background-color: #C95E67;
+    padding: 15px;
+    width: 100%;
+}
+
+.h5ader li {
+    display: inline;
+    padding: 10px;
+}
+
+.search {
+    color: gray;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 20px;
+    outline: none;
+    border: none;
+}
+
+.one-dress{
+    background-color: lightgray;
+    width: 250px;
+    border-radius: 20px;
+    border: 5px solid pink;
+    transition: all 0.5s ease-in-out;
+}
+
+.one-dress img {
+    background-color: white;
+    width: 250px;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.one-dress p, .one-dress h2 {
+    padding: 5px;
+}
+
+.one-dress:hover {
+    transform: scale(1.1,1.1);
+}
+
+.cards {
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.alfooter {
+    display: flex;
+    background-color: #C95E67;
+    justify-content: space-evenly;
+}
+
+.footer-list li {
+    list-style-type: none;
+    color: white;
+    padding: 10px;
+}
